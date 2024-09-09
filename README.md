@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [x] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -90,14 +90,14 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 100; i++) { //When creating i variable, type is declared before
 
             // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy3 = i % 3 == 0; //Creating a boolean object that states whether i % 3
             boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
+            if (divisibleBy3 && divisibleBy5) { //&& is and in python
 
                 System.out.println("Fizz Buzz");
 
@@ -119,7 +119,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
