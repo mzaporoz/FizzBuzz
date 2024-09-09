@@ -90,14 +90,14 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) { //When creating i variable, type is declared before
+        for (int i = 1; i < 100; i++) { 
 
             // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0; //Creating a boolean object that states whether i % 3
+            boolean divisibleBy3 = i % 3 == 0; 
             boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) { //&& is and in python
+            if (divisibleBy3 && divisibleBy5) { 
 
                 System.out.println("Fizz Buzz");
 
@@ -137,7 +137,7 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [x] Make note of any specific Java syntax which stands out to you and compare what you
 come up with those around you. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
 
