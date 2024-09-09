@@ -5,14 +5,14 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 100; i++) { //When creating variable i, type is declared before
 
             // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy3 = i % 3 == 0; //Create boolean object stating whether i % 3 is T/F
             boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
+            if (divisibleBy3 && divisibleBy5) { //'&&' is 'and' in python
 
                 System.out.println("Fizz Buzz");
 
